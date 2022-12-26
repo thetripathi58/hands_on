@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Password</title>
+    <style>
+        .container {
+            width: 800px;
+            border: 1px solid black;
+            margin: 100px auto 0;
+            height: 400px;
+            text-align: center;
+        }
+
+        .header {
+            background-color: silver;
+            padding: 20px 0;
+            width: inherit;
+            border-bottom: 3px solid black;
+            text-align: center;
+        }
+
+        .content{
+            margin: 10px;
+        }
+
+        .form>div {
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        .btn>button {
+        margin:  30px ;
+        padding: 10px 20px;
+      }
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Reset Password</h3>
+        </div>
+        <div>
+            <div class="content">
+                <form action=".js" class="form">
+                    <div>
+                    <label for="password">Old Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div>
+                    <label for="password">New Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div>
+                    <label for="password">Confirm New Password</label>
+                    <input type="password" name="password" id="password">
+
+            </div>
+                </form >
+                <div class="btn">
+                    <button>Save</button>
+                    <button>Cancel</button>
+
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
